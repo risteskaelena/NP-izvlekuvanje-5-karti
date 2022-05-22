@@ -24,6 +24,8 @@ int main()
         spilKarti[i]=spilKarti[rVrednost];
         spilKarti[rVrednost]=privremena;
     }
-    cout<<spilKarti[0]<<endl;
+    for(int i=0;i<5;i++) {
+        cout<<spilKarti[i]<<endl;
+    }
     return 0;
 }
